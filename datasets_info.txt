@@ -1,0 +1,18 @@
+D804 Performance Assessment - Dataset Information
+
+DATASET 1: IMDB Movie Reviews Dataset
+- Source: TensorFlow/Keras built-in datasets (tensorflow.keras.datasets.imdb)
+- Original Source: Stanford AI Lab (Maas et al., 2011)
+- URL: https://ai.stanford.edu/~amaas/data/sentiment/
+- Size: 50,000 movie reviews (25,000 train, 25,000 test)
+- Task: Binary sentiment classification (positive/negative)
+- License: Open source for research purposes
+
+DATASET 2: SMS Spam Collection
+- Source: UCI Machine Learning Repository
+- URL: https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection
+- Size: 5,574 SMS messages
+- Task: Binary classification (spam/ham)
+- License: Open source (CC BY 4.0)
+
+Both datasets are open-source and freely available for academic use.
