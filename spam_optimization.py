@@ -1,9 +1,9 @@
 """
-D804_PA_Optimization_SpamClassifier.py
+spam_optimization.py
 
-Goal: Optimize the Naive Bayes Spam Classifier for improved efficiency
-      and performance through systematic hyperparameter tuning and
-      feature engineering.
+Optimize the Naive Bayes Spam Classifier for improved efficiency
+and performance through systematic hyperparameter tuning and
+feature engineering.
 
 Optimization Strategies:
 1. Smoothing Parameter (Alpha) Tuning
@@ -11,8 +11,7 @@ Optimization Strategies:
 3. Vectorization Method Comparison: Count vs TF-IDF
 4. Performance Benchmarks: Accuracy, Precision, Recall, F1, ROC-AUC
 
-Author: Student
-Course: D804 - Advanced AI for Computer Scientists
+Author: Anthony Perry
 """
 
 import numpy as np
@@ -509,7 +508,7 @@ def main():
     7. Benchmark comparison
     """
     print("=" * 60)
-    print("D804_PA_Optimization_SpamClassifier")
+    print("Naive Bayes Spam Optimization")
     print("Naive Bayes Spam Classifier Optimization")
     print("=" * 60)
 

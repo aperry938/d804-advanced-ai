@@ -1,7 +1,8 @@
 """
-D804_PA_Model_SentimentAnalyzer.py
+transformer_sentiment.py
 
-Goal: Sentiment Analysis using Transformer with Self-Attention Mechanism
+Sentiment Analysis using Transformer with Self-Attention Mechanism
+
 Dataset: IMDB Movie Reviews (50,000 reviews - 25,000 training, 25,000 testing)
 Method: Transformer architecture with multi-head self-attention
 
@@ -9,8 +10,7 @@ This model classifies movie reviews as positive (1) or negative (0) sentiment
 using a custom Transformer encoder architecture that leverages self-attention
 to capture long-range dependencies in text sequences.
 
-Author: Student
-Course: D804 - Advanced AI for Computer Scientists
+Author: Anthony Perry
 """
 
 import numpy as np
@@ -529,7 +529,7 @@ def main():
     6. Demonstrate deployment options
     """
     print("=" * 60)
-    print("D804_PA_Model_SentimentAnalyzer")
+    print("Transformer Sentiment Analyzer")
     print("Transformer-Based Sentiment Analysis")
     print("=" * 60)
 

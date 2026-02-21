@@ -1,9 +1,9 @@
 """
-D804_PA_Optimization_SentimentAnalyzer.py
+transformer_optimization.py
 
-Goal: Optimize the Transformer-based Sentiment Analysis model for improved
-      efficiency and performance through systematic hyperparameter tuning
-      and architectural modifications.
+Optimize the Transformer-based Sentiment Analysis model for improved
+efficiency and performance through systematic hyperparameter tuning
+and architectural modifications.
 
 Optimization Strategies:
 1. Hyperparameter Tuning: Learning rate, batch size, dropout
@@ -11,8 +11,7 @@ Optimization Strategies:
 3. Regularization Techniques: Dropout rates, early stopping
 4. Performance Benchmarks: Accuracy, Precision, Recall, F1, Training time
 
-Author: Student
-Course: D804 - Advanced AI for Computer Scientists
+Author: Anthony Perry
 """
 
 import numpy as np
@@ -501,7 +500,7 @@ def main():
     7. Benchmark comparison
     """
     print("=" * 60)
-    print("D804_PA_Optimization_SentimentAnalyzer")
+    print("Transformer Sentiment Optimization")
     print("Transformer Model Optimization")
     print("=" * 60)
 

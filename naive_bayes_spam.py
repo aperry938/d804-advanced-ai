@@ -1,7 +1,8 @@
 """
-D804_PA_Model_SpamClassifier.py
+naive_bayes_spam.py
 
-Goal: Spam Detection using Naive Bayes (Probabilistic Method)
+Spam Detection using Naive Bayes (Probabilistic Method)
+
 Dataset: SMS Spam Collection from UCI Machine Learning Repository
 Method: Multinomial Naive Bayes with TF-IDF Vectorization
 
@@ -16,8 +17,7 @@ P(Spam|Message) = P(Message|Spam) * P(Spam) / P(Message)
 The "naive" assumption treats each word's probability as independent:
 P(Message|Spam) = P(word1|Spam) * P(word2|Spam) * ... * P(wordN|Spam)
 
-Author: Student
-Course: D804 - Advanced AI for Computer Scientists
+Author: Anthony Perry
 """
 
 import numpy as np
@@ -666,7 +666,7 @@ def main():
     8. Demonstrate deployment
     """
     print("=" * 60)
-    print("D804_PA_Model_SpamClassifier")
+    print("Naive Bayes Spam Classifier")
     print("Naive Bayes Spam Detection")
     print("=" * 60)
 
